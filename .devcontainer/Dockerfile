@@ -1,5 +1,5 @@
 # PHPとApacheがインストールされたOfficialイメージをPullします。
-FROM php:7.2.30-apache
+FROM php:7.2-apache
 
 # 修正したソースコードをGitリポジトリにアップするために
 # コンテナ上にGitをインストールします。
